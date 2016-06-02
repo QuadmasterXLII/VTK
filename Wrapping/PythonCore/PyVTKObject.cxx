@@ -648,6 +648,10 @@ void PyVTKObject_AddObserver(PyObject *obj, unsigned long id)
   olist[n] = 0;
 }
 
+int PyVTKObject_InvokeEvent(unsigned long event, PyObject *callData){
+    return 27;
+}
+
 unsigned int PyVTKObject_GetFlags(PyObject *obj)
 {
   return ((PyVTKObject *)obj)->vtk_flags;

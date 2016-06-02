@@ -86,6 +86,9 @@ VTKWRAPPINGPYTHONCORE_EXPORT
 void PyVTKObject_AddObserver(PyObject *obj, unsigned long id);
 
 VTKWRAPPINGPYTHONCORE_EXPORT
+int PyVTKObject_InvokeEvent(unsigned long event, PyObject *callData);
+
+VTKWRAPPINGPYTHONCORE_EXPORT
 void PyVTKObject_SetFlag(PyObject *obj, unsigned int flag, int val);
 
 VTKWRAPPINGPYTHONCORE_EXPORT
