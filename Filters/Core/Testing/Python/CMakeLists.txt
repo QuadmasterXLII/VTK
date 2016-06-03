@@ -7,6 +7,7 @@
 #  financialField3,NO_RT
 
 vtk_add_test_python(
+  invokeEventTest.py,NO_OUTPUT,NO_DATA,NO_VALID,NO_RT
   CellDataToPointData.py
   Delaunay2D.py
   Delaunay2DAlpha.py
